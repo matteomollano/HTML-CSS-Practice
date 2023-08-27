@@ -8,3 +8,4 @@
 - How to position elements on a webpage using display property, CSS Grid, and Flexbox
 - Nested-Layout design using divs
 - Fixed, absolute, and relative positioning of elements
+- Responsive Web Design using @media queries
