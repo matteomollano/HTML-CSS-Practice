@@ -1,0 +1,23 @@
+.rounded-textbox {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+}
+
+.shadow-textbox {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 550px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}

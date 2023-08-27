@@ -1,0 +1,57 @@
+.name-textbox {
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 150px;
+}
+
+.email-textbox {
+    display: block;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    color: rgb(96, 96, 96);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 339px;
+}
+
+.signup-button {
+    margin-top: 10px;
+    background-color: rgb(30, 111, 250);
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    width: 374px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+
+.signup-button:hover {
+    background-color: rgb(27, 101, 227);
+}
+
+.signup-button:active {
+    opacity: 0.7;
+}

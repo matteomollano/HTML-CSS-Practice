@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Flexbox Practice</title>
+        <link rel="stylesheet" href="flexbox.css">
+    </head>
+    <body>
+        <!-- Similarities to CSS Grid -->
+        <div class="flexbox1">
+            <div style="background-color: lightblue;">
+                div1 text
+            </div>
+            <div style="background-color: lightpink">
+                div2
+                <p>text</p>
+            </div>
+        </div>
+
+        <div class="flexbox1">
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightpink;
+            flex: 1
+            ">
+                flex: 1 (same as 1fr in grid)
+            </div>
+        </div>
+
+        <div class="flexbox1">
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightpink;
+            flex: 1;
+            ">
+                flex: 1 (1fr in grid)
+            </div>
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            flex: 2;
+            ">
+                flex: 2 (2fr in grid)
+            </div>
+        </div>
+
+        <!-- Differences to CSS Grid -->
+        <!-- 
+            Grid = rigid layout
+            Flexbox = flexible layout
+
+            If you move around divs in CSS grid, the layout will NOT be updated.
+            If you move around divs in Flexbox, the layout WILL be updated.
+        -->
+
+        <!-- Practice for creating header/navbar -->
+        <div class="header">
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightpink;
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+        </div>
+
+        <div class="header2">
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightpink;
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+        </div>
+
+        <div class="header3">
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightpink;
+            width: 100px;
+            ">
+                100px
+            </div>
+            <div style="
+            background-color: lightblue; 
+            width: 100px;
+            ">
+                100px
+            </div>
+        </div>
+    </body>
+</html>

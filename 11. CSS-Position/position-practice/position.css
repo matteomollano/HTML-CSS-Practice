@@ -1,0 +1,77 @@
+body {
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 1; /* determines which elements appear in front
+    and which elements appear behind */
+}
+
+.sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    width: 72px;
+}
+
+.X {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 0px;
+    right: 0px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 60px;
+    right: 10px;
+}
+
+/* 
+    position fixed = positions the element in the browser window,
+    doesn't move when we scroll
+
+    position absolute = positions the element on the page, which
+    does move when we scroll (place an element on a precise location
+    on the page)
+*/
+
+.div1 {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static; 
+}
+
+.div2 {
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* if we put a position absolute inside the div, it will
+    position the element "relative" to the div (instead of to
+    the page) */
+}
+
+.video-time {
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+}

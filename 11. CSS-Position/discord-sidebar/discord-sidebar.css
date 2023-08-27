@@ -1,0 +1,93 @@
+body {
+    height: 3000px;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 60px;
+    background-color: rgb(35, 39, 42);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.second-sidebar {
+    background-color: rgb(53, 59, 63);
+    width: 200px;
+    
+    position: fixed;
+    left: 80px;
+    top: 0px;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+p {
+    font-family: Arial;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.plus {
+    color: rgb(179, 179, 179);
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.bottom-row {
+    margin-left: 20px;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-wrapper {
+    margin-bottom: 15px;
+}
+
+.channel {
+    font-size: 16px;
+    color: rgb(179, 179, 179);
+    cursor: pointer;
+    display: inline-block;
+    width: auto; /* Set width to auto to match content width */
+}

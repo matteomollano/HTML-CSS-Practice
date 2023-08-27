@@ -1,0 +1,17 @@
+.rounded-image {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.square-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.circle-image {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 87.5px;
+}

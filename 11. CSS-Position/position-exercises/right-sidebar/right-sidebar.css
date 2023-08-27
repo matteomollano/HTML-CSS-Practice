@@ -1,0 +1,50 @@
+body { 
+    height: 3000px;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.right-sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 20px;
+    width: 500px;
+    border-radius: 8px;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.modal-desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

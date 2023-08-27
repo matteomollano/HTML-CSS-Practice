@@ -1,0 +1,18 @@
+.flexbox1, .flexbox2, .flexbox3 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.flexbox2 {
+    justify-content: space-between; 
+}
+
+.flexbox3 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}

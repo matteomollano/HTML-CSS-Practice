@@ -1,0 +1,35 @@
+body {
+    padding-bottom: 1000px;
+}
+
+.container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+}
+
+.container2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+.container3 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+}
+
+.container4 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr;
+}
+
+.container5 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
